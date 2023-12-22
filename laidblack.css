@@ -1,8 +1,8 @@
 /* the container styles */
-.container {
+  .container {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+   /* flex-direction: row;*/
+   flex-wrap: wrap;
     margin-top: 100px;
   }
   
@@ -67,8 +67,8 @@
   
   /* these are the header styles */
   header {
-    display: flex;
-    flex-direction: row;
+   display: flex;
+    /* flex-direction: row;*/
     align-items: center;
     justify-content: space-between;
     padding: 0 2em;
@@ -100,4 +100,4 @@
     text-decoration: underline #ffd977;
     text-decoration-thickness: 6px;
   }
-  
+     
